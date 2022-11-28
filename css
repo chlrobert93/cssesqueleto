@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+     /*width: 70%;*/
+     width: 1100px;
+     margin: 0px auto;
+     border: 1px solid red;
+
+}
+
+header{
+    background-color: red;
+    /*height---Altura*/
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    /*centrar verticalmente*/
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed black;
+
+}
+
+nav{
+    background-color: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+nav ul li{
+    /*Que floten a la izquierda*/
+    float: left;
+    /*Para que no tenga estilo*/
+    list-style: none;
+    margin: 10px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    /*float: left;  izquierda*/
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+}
+
+.article{
+    color: rgb(245, 171, 171);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid rgb(121, 62, 216);
+}
+
+.article:first-child{
+    border-top: 1px solid #eee ;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-color: blueviolet;
+    min-height: 500px;
+    /*Interior de la caja*/
+    /*padding: 10px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+
+footer{
+    background-color: black;
+    color:  white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
